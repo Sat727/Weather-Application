@@ -17,6 +17,20 @@
         android:gravity="start"/>
     <TextView
         android:layout_width="0dp"
-        android:id="@+id/tempText"/>
-
+        android:id="@+id/temperatureText"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text=""
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:gravity="center" />
+    <TextView
+        android:id="@+id/rainText"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text=""
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:gravity="end"/>
 </LinearLayout>

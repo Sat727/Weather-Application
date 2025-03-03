@@ -27,7 +27,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                <!--Recycler View for 24 hour forecase -->
+                <!-- Recycler View for 24 hour forecast, Passed with list_item -->
                 <androidx.recyclerview.widget.RecyclerView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
